@@ -21,8 +21,7 @@ To insert elements into the tree, use the insert predicate:
 true
 ```
 
-###
-Querying Right Children
+### Querying Right Children
 
 To find the right children in the tree, use the right_child predicate. It returns pairs where the first element is a node and the second element is its right child:
 
@@ -32,8 +31,7 @@ X = 100, Y = 150;
 X = 50, Y = 60.
 ```
 
-###
-Inserting Random Elements
+### Inserting Random Elements
 
 To insert a random element within a specified range and then fail (to prevent backtracking from undoing the insertion):
 
@@ -42,8 +40,7 @@ To insert a random element within a specified range and then fail (to prevent ba
 false.
 ```
 
-###
-Generating SVG Output
+### Generating SVG Output
 
 To generate an SVG file from the current state of the tree:
 
@@ -51,8 +48,6 @@ To generate an SVG file from the current state of the tree:
 ?- write_file("my_binary_tree.svg").
 ```
 
-###
-
-Notes
+### Notes
 
 The write_file command does not produce a Prolog query result but will write the output to the specified SVG file.

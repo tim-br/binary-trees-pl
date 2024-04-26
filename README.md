@@ -36,6 +36,10 @@ X = 50, Y = 60.
 To insert a random element within a specified range and then fail (to prevent backtracking from undoing the insertion):
 
 ```
+?- use_module(library(random)). % optional to set the seed
+   true.
+?- set_random(seed(439)). % optional to change results each time choose a random number
+   true.
 ?- between(1,20,_), insert_random(50), fail.
 false.
 ```

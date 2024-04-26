@@ -7,7 +7,7 @@ This document details the usage of the `geo2` Prolog program. The examples demon
 To start using the program, load the `geo2.pl` file into your Prolog environment:
 
 ```prolog
-?- ['target/release/examples/tree/geo2.pl'].
+?- [geo2].
 true.
 ```
 

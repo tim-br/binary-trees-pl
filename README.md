@@ -1,7 +1,7 @@
 # Project README
 
 ## Overview
-This document details the usage of the `geo2` Prolog program. The examples demonstrate how to perform various operations with trees, such as insertion and querying.
+This document details the usage of the `geo2` Prolog program implemented in scryer prolog. The examples demonstrate how to perform various operations with trees, such as insertion and querying.
 
 ### How to Load the Program
 To start using the program, load the `geo2.pl` file into your Prolog environment:
